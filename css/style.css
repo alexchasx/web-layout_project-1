@@ -62,7 +62,7 @@ img {
 body {
   min-width: 100%;
   font-family: 'Muller', sans-serif;
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }
 
 /* glob */
@@ -405,7 +405,7 @@ ul {
   line-height: 200%;
   color: var(--color-yellow);
   background: transparent url("../img/next-service.svg") no-repeat 100%;
-  transition: color .3s linear, background .3s linear;
+  transition: color .3s linear, background-color .3s linear;
 }
 
 .services-card-btn:focus::after {
